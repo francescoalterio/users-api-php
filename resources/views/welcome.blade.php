@@ -78,8 +78,32 @@
                 <div class="card" style="background-color: #3c3b47; color: white">
                     <pre class="p-2" style="white-space: pre-wrap;"><code></code></pre>
                 </div>
-                
+                <div class="card mt-2 text-center pb-2" style="background-color: #3c3b47; color: white">
+                     <div class="row pt-2">
+                        <div class="col-2 fw-bold">
+                            Property
+                        </div>
+                        <div class="col-5 fw-bold">
+                            Description
+                        </div>
+                        <div class="col-5 fw-bold">
+                            Example
+                        </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-2">
+                            length
+                        </div>
+                        <div class="col-5">
+                            Allows you to select the length of the response.
+                        </div>
+                        <div class="col-5">
+                         Example: /users?length=20
+                        </div>
+                    </div>
                </div>
+               </div>
+               
             </div>
         </section>
 
