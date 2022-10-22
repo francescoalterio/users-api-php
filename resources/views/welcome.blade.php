@@ -62,12 +62,7 @@
                     <li class="list-group-item"  style="background-color: #3c3b47; color: white">
                         <a class="link-light" href="/users">/users</a>
                     </li>
-                    <li class="list-group-item"  style="background-color: #3c3b47; color: white">
-                        <a class="link-light" href="/posts">/posts</a>
-                    </li>
-                    <li class="list-group-item"  style="background-color: #3c3b47; color: white">
-                        <a class="link-light" href="/comments">/comments</a>
-                    </li>
+                   
                 </ol>
             </div>
         </section>
@@ -78,8 +73,7 @@
                <div class="card-body">
                  <div class="btn-example-container btn-group card-title" role="group" aria-label="Basic example">
                     <button type="button" class="btn-example btn btn-outline-secondary active">/users</button>
-                    <button type="button" class="btn-example btn btn-outline-secondary">/posts</button>
-                    <button type="button" class="btn-example btn btn-outline-secondary">/comments</button>
+                   
                 </div>
                 <div class="card" style="background-color: #3c3b47; color: white">
                     <pre class="p-2" style="white-space: pre-wrap;"><code></code></pre>
