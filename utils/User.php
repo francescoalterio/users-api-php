@@ -1,6 +1,4 @@
 <?php
-    namespace utils;
-
     class User {
         public $name;
         public $last_name;
@@ -17,7 +15,7 @@
             $this->gender = $random_gender ? 'male' : 'female';
             $name_list = $random_gender ? $male_names : $female_names;
             $this->name = $name_list[rand(0, count($name_list) - 1)];
-            $this->last_name = $last_names[rand(0, count($last_names))];
+            $this->last_name = $last_names[rand(0, count($last_names) -1)];
             $this->email = $this->create_email();
             $this->website = $this->create_website();
         }
